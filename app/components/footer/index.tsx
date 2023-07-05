@@ -11,7 +11,7 @@ const Footer = () => {
       <Container>
         <div className="py-20 flex flex-wrap md:text-left text-center">
           <div className="w-full sm:w-1/2">
-            <h2 className="font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+            <h2 className="font-medium text-gray-900 tracking-widest text-sm mb-3">BECOME A SPONSOR</h2>
 
             <div className="w-full md:w-72 inline-flex justify-center mb-3 mr-3">
               <Input label="Email" />
