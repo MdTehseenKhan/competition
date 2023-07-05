@@ -1,9 +1,9 @@
-import { Work_Sans } from "next/font/google"
-import { Navbar } from "@/components"
+import { Inter } from "next/font/google"
+import { Footer, Navbar } from "@/components"
 
 import "./globals.css"
 
-const inter = Work_Sans({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <Navbar />
         {children}
-        Footer
+        <Footer />
       </body>
     </html>
   )

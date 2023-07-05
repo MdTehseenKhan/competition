@@ -1,7 +1,15 @@
 export default async function Home() {
   return (
-    <main className="h-screen">
-      <section>We build software solutions to enhance businesses.</section>
+    <main className="h-screen bg-red-500">
+      <section>Banner</section>
+
+      <section>About</section>
+
+      <section>Events</section>
+
+      <section>FAQ</section>
+
+      <section>Become a Member</section>
     </main>
   )
 }
