@@ -5,14 +5,13 @@ import { useState } from "react"
 import { usePathname } from "next/navigation"
 
 import { HiBars3, HiXMark } from "react-icons/hi2"
-import { Button, IconButton, Navbar, Collapse } from "@material-tailwind/react"
+import { Button, IconButton, Navbar, Collapse, MobileNav } from "@material-tailwind/react"
 
 import { menuItems } from "@/constants"
 
 const Nav = () => {
   const [openNav, setOpenNav] = useState(false)
   const pathname = usePathname()
-  console.log(pathname)
 
   const toggleOpenNav = () => setOpenNav((p) => !p)
   const handleCloseNav = () => setOpenNav(false)
@@ -61,14 +60,14 @@ const Nav = () => {
         </div>
       </div>
 
-      <Collapse open={openNav} className="md:hidden">
+      <MobileNav open={openNav} className="md:hidden">
         <div className="py-4">
           {navList}
           <Button variant="gradient" size="sm" className="bg-black font-bold px-4 py-2 flex w-full">
             Join us
           </Button>
         </div>
-      </Collapse>
+      </MobileNav>
     </Navbar>
   )
 }
