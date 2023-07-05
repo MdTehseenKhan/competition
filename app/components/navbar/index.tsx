@@ -60,7 +60,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <MobileNav open={openNav} className="md:hidden">
+      <MobileNav open={openNav} className="md:hidden overflow-hidden">
         <div className="py-4">
           {navList}
           <Button variant="gradient" size="sm" className="bg-black font-bold px-4 py-2 flex w-full">
