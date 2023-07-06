@@ -7,7 +7,7 @@ import { Button } from "@material-tailwind/react"
 const About = () => {
   return (
     <section className="text-gray-600">
-      <Container className=" flex flex-col md:flex-row md:items-center py-10">
+      <Container className=" flex flex-col md:flex-row md:items-center py-10 gap-10">
         <div className="md:w-1/2">
           <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-gray-900">About Us</h1>
           <p className="mb-8 leading-relaxed max-w-md">
