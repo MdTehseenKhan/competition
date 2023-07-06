@@ -10,14 +10,14 @@ const NavList = ({ handleCloseNav }: { handleCloseNav?: MouseEventHandler }) => 
   const pathname = usePathname()
 
   return (
-    <List className="mb-4 flex flex-col md:flex-row md:mb-0">
+    <List className="flex flex-col md:flex-row px-0">
       {menuItems?.map(({ title, link }, i) => (
         //
         <Link key={i + title} href={link} onClick={handleCloseNav}>
           <ListItem
             className={`
-              px-4 py-2
-              ${pathname == link ? `bg-primary text-white md:bg-transparent md:text-black font-bold` : ""}
+              px-4 py-2 uppercase text-sm
+              ${pathname == link ? `bg-primary text-white md:bg-transparent md:text-gray-900 font-bold` : ""}
             `}
           >
             {title}

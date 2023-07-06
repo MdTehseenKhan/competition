@@ -1,15 +1,15 @@
+import { About, Banner, Faq } from "@/sections"
+
 export default async function Home() {
   return (
-    <main className="h-screen bg-red-500">
-      <section>Banner</section>
+    <main className="bg-red-500">
+      <Banner />
 
-      <section>About</section>
+      <About />
 
       <section>Events</section>
 
-      <section>FAQ</section>
-
-      <section>Become a Member</section>
+      <Faq />
     </main>
   )
 }

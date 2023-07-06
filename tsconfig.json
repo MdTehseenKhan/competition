@@ -24,8 +24,9 @@
       "@/components": ["./app/components"],
       "@/sections": ["./app/components/sections"],
       "@/constants": ["./app/constants"],
+      "@/actions": ["./app/actions"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/sections/about-section.tss"],
   "exclude": ["node_modules"]
 }
