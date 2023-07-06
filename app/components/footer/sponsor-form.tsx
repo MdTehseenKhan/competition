@@ -7,7 +7,7 @@ const SponsorForm = () => {
     <>
       <h2 className="font-medium text-gray-900 tracking-widest text-sm mb-5">BECOME A SPONSOR</h2>
 
-      <form action={postSponsorData}>
+      <form action={postSponsorData} id="become-sponsor">
         <div className="w-full md:w-72 flex flex-col justify-center gap-3">
           <Input label="Email" type="email" name="email" required className="" />
 
