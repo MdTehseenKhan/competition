@@ -68,7 +68,7 @@ const AboutList = () => {
           </div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0 order-2 md:order-1">
+          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0 order-2 md:order-first">
             <h2 className="text-gray-900 text-lg title-font font-bold mb-2">Ongoing Development</h2>
             <p className="leading-relaxed text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, consequuntur, corporis distinctio
@@ -99,7 +99,7 @@ const AboutList = () => {
         </div>
 
         <div className="flex items-center lg:w-3/5 mx-auto mb-10 sm:flex-row flex-col">
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0 order-2 md:order-1">
+          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0 order-2 md:order-first">
             <h2 className="text-gray-900 text-lg title-font font-bold mb-2">History</h2>
             <p className="leading-relaxed text-base">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum magni, alias nulla exercitationem autem

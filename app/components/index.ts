@@ -6,4 +6,6 @@ export { default as Logo } from "./logo"
 export { default as Container } from "./container"
 export { default as ScrollToTop } from "./scroll-to-top"
 
+export { default as EventCard } from "./event-card"
+
 export { default as ContactForm } from "./contact-form"

@@ -1,4 +1,5 @@
 import { SiFacebook, SiInstagram, SiLinkedin, SiTwitter } from "react-icons/si"
+export { default as events } from "./events"
 
 export const menuItems = [
   {

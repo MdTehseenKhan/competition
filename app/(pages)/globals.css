@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-smooth;
+  scroll-behavior: smooth;
 }
 
 /* Infinite Scroll */
@@ -21,3 +21,36 @@ html {
   }
 }
 /* End Infinite Scroll */
+
+/* Event Card */
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.flip-card-back {
+  background-image: linear-gradient(to right bottom, #251243, #283f77, #176ea8, #00a0d1, #2bd3f2);
+  transform: rotateY(180deg);
+}
+/* END Event Card */

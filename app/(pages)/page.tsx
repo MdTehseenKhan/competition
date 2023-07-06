@@ -1,4 +1,4 @@
-import { About, Banner, Faq, Sponsors, Team } from "@/sections"
+import { About, Banner, Events, Faq, Sponsors, Team } from "@/sections"
 
 export default async function Home() {
   return (
@@ -11,7 +11,7 @@ export default async function Home() {
 
       <Team />
 
-      <section>Events</section>
+      <Events />
 
       <Faq />
     </main>
