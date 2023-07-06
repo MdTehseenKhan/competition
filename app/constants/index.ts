@@ -88,3 +88,11 @@ export const socials = [
     Icon: SiLinkedin,
   },
 ]
+
+export const contactDetails = {
+  email: "http://mail2.neduet.edu.pk/",
+  phone: "+923353046110",
+  mapLink:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.9792395954732!2d67.1087096743837!3d24.93277714236195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338b8d78d1ec5%3A0x24e4dfbb32401c1a!2sResearch%20Center%20for%20Artificial%20Intelligence!5e0!3m2!1sen!2s!4v1688667769761!5m2!1sen!2s",
+  address: "W4M6+4G3, NED University Of Engineering & Technology, Karachi, Karachi City, Sindh",
+}
