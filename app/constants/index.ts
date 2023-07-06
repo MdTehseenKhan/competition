@@ -52,17 +52,17 @@ export const accordions = [
       "We're not always in the position that we want to be at.\nWe're constantly growing. We're constantly making mistakes.\nWe're constantly trying to express ourselves and actualize our dreams.",
   },
   {
-    title: "What is Research Center AI?",
+    title: "How to reach us?",
     description:
       "We're not always in the position that we want to be at.\nWe're constantly growing. We're constantly making mistakes.\nWe're constantly trying to express ourselves and actualize our dreams.",
   },
   {
-    title: "What is Research Center AI?",
+    title: "How to become a sponsor?",
     description:
       "We're not always in the position that we want to be at.\nWe're constantly growing. We're constantly making mistakes.\nWe're constantly trying to express ourselves and actualize our dreams.",
   },
   {
-    title: "What is Research Center AI?",
+    title: "What benefits will you get?",
     description:
       "We're not always in the position that we want to be at.\nWe're constantly growing. We're constantly making mistakes.\nWe're constantly trying to express ourselves and actualize our dreams.",
   },
