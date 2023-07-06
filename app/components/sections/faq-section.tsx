@@ -24,6 +24,7 @@ const Faq = () => {
         {accordions?.map(({ title, description }, id) => (
           <Accordion
             //
+            key={id + title}
             open={open === id + 1}
             icon={<Icon isOpen={open === id + 1} />}
             className="max-w-3xl group"
