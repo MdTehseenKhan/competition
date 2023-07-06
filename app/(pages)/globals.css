@@ -5,3 +5,19 @@
 html {
   @apply scroll-smooth;
 }
+
+/* Infinite Scroll */
+.animate-scroll {
+  width: 2500px;
+  animation: animateScroll 35s linear infinite;
+}
+
+@keyframes animateScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+/* End Infinite Scroll */

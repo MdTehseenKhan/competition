@@ -47,7 +47,7 @@ export default function About() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="/images/about/team1.jpg"
+                    src="/images/team/team1.jpg"
                   />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-bold text-lg text-gray-900">Holden Caulfield</h2>
@@ -102,7 +102,7 @@ export default function About() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="/images/about/team2.jpg"
+                    src="/images/team/team2.jpg"
                   />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-bold text-lg text-gray-900">Alper Kamu</h2>
@@ -157,7 +157,7 @@ export default function About() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="/images/about/team3.jpg"
+                    src="/images/team/team3.jpg"
                   />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-bold text-lg text-gray-900">Atticus Finch</h2>
@@ -212,7 +212,7 @@ export default function About() {
                   <img
                     alt="team"
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="/images/about/team4.jpg"
+                    src="/images/team/team4.jpg"
                   />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-bold text-lg text-gray-900">Henry Letham</h2>

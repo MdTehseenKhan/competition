@@ -12,12 +12,17 @@ const About = () => {
     <section className="text-gray-600">
       <Container className=" flex flex-col md:flex-row md:items-center py-20 gap-10">
         <div className="md:w-1/2">
-          <h1 className="sm:text-4xl text-3xl mb-4 font-bold text-gray-900">About Us</h1>
+          <div className="mb-6">
+            <h1 className="sm:text-3xl text-2xl font-bold mb-2 text-gray-900">About Us</h1>
+            <div className="h-1 w-20 bg-blue-500 rounded" />
+          </div>
+
           <p className="mb-8 leading-relaxed max-w-md">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique distinctio ipsam, quae modi maxime a
             placeat soluta at quisquam totam molestias praesentium. Magni dignissimos doloremque saepe est, ipsum sequi
             repellendus...
           </p>
+
           <Link href="/about">
             <Button size="lg" className="bg-primary">
               Read More

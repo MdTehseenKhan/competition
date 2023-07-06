@@ -43,7 +43,55 @@ export const carousel = [
   },
 ]
 
+export const sponsors = [
+  "/images/sponsors/asset 1.svg",
+  "/images/sponsors/asset 2.svg",
+  "/images/sponsors/asset 3.svg",
+  "/images/sponsors/asset 4.svg",
+  "/images/sponsors/asset 5.svg",
+  "/images/sponsors/asset 6.svg",
+  "/images/sponsors/asset 7.svg",
+  "/images/sponsors/asset 8.svg",
+  "/images/sponsors/asset 9.svg",
+  "/images/sponsors/asset 10.svg",
+  "/images/sponsors/asset 1.svg",
+  "/images/sponsors/asset 2.svg",
+  "/images/sponsors/asset 3.svg",
+  "/images/sponsors/asset 4.svg",
+  "/images/sponsors/asset 5.svg",
+  "/images/sponsors/asset 6.svg",
+  "/images/sponsors/asset 7.svg",
+  "/images/sponsors/asset 8.svg",
+  "/images/sponsors/asset 9.svg",
+  "/images/sponsors/asset 10.svg",
+]
 
+export const team = [
+  {
+    image: "/images/team/team1.jpg",
+    name: "Holden Caulfield",
+    designation: "UI Developer",
+    about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    image: "/images/team/team2.jpg",
+    name: "Alper Kamu",
+    designation: "Designer",
+    about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    image: "/images/team/team3.jpg",
+    name: "Atticus Finch",
+    designation: "UI Developer",
+    about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+  {
+    image: "/images/team/team4.jpg",
+    name: "Henry Letham",
+    designation: "UI Developer",
+    about: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+  },
+]
 
 export const accordions = [
   {
@@ -69,22 +117,21 @@ export const accordions = [
 ]
 
 
-
 export const socials = [
   {
     link: "https://facebook.com/",
     Icon: SiFacebook,
   },
   {
-    link: "https://facebook.com/",
+    link: "https://twitter.com/",
     Icon: SiTwitter,
   },
   {
-    link: "https://facebook.com/",
+    link: "https://instagram.com/",
     Icon: SiInstagram, 
   },
   {
-    link: "https://facebook.com/",
+    link: "https://linkedin.com/in/",
     Icon: SiLinkedin,
   },
 ]
