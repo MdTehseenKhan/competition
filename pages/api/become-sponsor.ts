@@ -1,7 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next"
-
 import SponsorModel from "@/app/models/Sponsor"
-
 import "../../db"
 
 type ResponseData = {

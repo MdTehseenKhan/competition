@@ -12,12 +12,14 @@ type ResponseData = {
 export default async function hello(req: NextApiRequest, res: NextApiResponse<ResponseData> ) {
   const { name, email, message } = req.body
 
+  console.log(req.body)
+
   switch (req.method) {
     case "POST": {
       try {
         ContactModel.create({
-          name,
-          email,
+          name: name,
+          email: email,
           message
         })
 
