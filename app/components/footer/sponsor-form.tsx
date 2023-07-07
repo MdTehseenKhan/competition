@@ -18,7 +18,6 @@ const SponsorForm = () => {
       }),
     })
       .then((res) => {
-        // console.log(res)
         if (res.status === 422) return toast.error("Email Already Exists!")
 
         toast.success("Request Submitted Successfully!")
