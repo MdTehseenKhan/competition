@@ -15,6 +15,7 @@ const scrollToTop = () => {
           bottom-5 
           grid 
           place-items-center
+          z-50
         "
       >
         ↑
