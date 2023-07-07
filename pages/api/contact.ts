@@ -10,10 +10,10 @@ type ResponseData = {
 }
 
 export default async function hello(req: NextApiRequest, res: NextApiResponse<ResponseData> ) {
-  const { name, email, message } = req.body
+  const { name, email, message } = JSON.parse(req.body)
 
   switch (req.method) {
-    case "POST": {
+    case "PATCH": {
       try {
         ContactModel.create({
           name: name,

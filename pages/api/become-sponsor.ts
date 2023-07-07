@@ -8,13 +8,13 @@ type ResponseData = {
 }
 
 export default async function hello(req: NextApiRequest, res: NextApiResponse<ResponseData> ) {
-  const { email } = req.body
+  const { email } = JSON.parse(req.body)
 
   switch (req.method) {
     case "POST": {
       try {
         const sponsor = await SponsorModel.findOne({ email })
-        if (sponsor === null) return res.status(422).json({ success: false, message: "Email already exitsts!"})
+        if (sponsor !== null) return res.status(422).json({ success: false, message: "Email already exitsts!"})
 
         SponsorModel.create({
           email

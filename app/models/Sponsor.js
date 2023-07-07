@@ -5,6 +5,6 @@ const SponsorSchema = new Schema({
 })
 
 mongoose.models = []
-const SponsorModel = mongoose.models.SponsorModel || model("sponsors", SponsorSchema)
+const SponsorModel = mongoose.models.SponsorModel || model("Sponsor", SponsorSchema)
 
 export default SponsorModel

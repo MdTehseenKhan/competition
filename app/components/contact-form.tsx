@@ -20,7 +20,7 @@ const ContactForm = () => {
     e.preventDefault()
 
     fetch("/api/contact", {
-      method: "post",
+      method: "PATCH",
       body: JSON.stringify({
         name: contact.name,
         email: contact.email,
