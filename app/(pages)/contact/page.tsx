@@ -5,7 +5,7 @@ import { ContactUs } from "@/sections"
 export default function Contact() {
   return (
     <main>
-      <div className="relative w-full h-96 lg:h-[500px]">
+      <div className="relative w-full h-96">
         <Image src="/images/contact.jpg" alt="Contact" fill className="object-cover object-center" />
       </div>
 
