@@ -28,7 +28,7 @@ const Banner = () => {
                 h-full 
                 w-full 
                 place-items-center 
-                bg-black/75
+                bg-black/50
               "
             >
               <div className="w-3/4 text-center text-white md:w-1/2">

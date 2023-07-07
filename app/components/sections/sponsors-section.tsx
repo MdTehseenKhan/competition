@@ -3,7 +3,7 @@ import { sponsors } from "@/constants"
 const Sponsors = () => {
   return (
     <section className="bg-gray-900">
-      <div className="py-8 overflow-x-hidden">
+      <div className="py-5 overflow-x-hidden">
         <div
           className="
           relative 
@@ -14,7 +14,7 @@ const Sponsors = () => {
         "
         >
           {sponsors?.map((img, i) => (
-            <div key={i + img} className="h-5 aspect-video">
+            <div key={i + img} className="h-10 aspect-video">
               <img src={img} alt={"image" + i} className="w-full h-full object-contain" />
             </div>
           ))}
