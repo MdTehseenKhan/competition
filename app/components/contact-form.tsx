@@ -1,8 +1,40 @@
 "use client"
+import { useState } from "react"
 import { Button, Input, Textarea } from "@material-tailwind/react"
+import { toast } from "react-hot-toast"
 
 const ContactForm = () => {
-  const handleSubmit = () => {}
+  const [contact, setContact] = useState(() => ({
+    name: "",
+    email: "",
+    message: "",
+  }))
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
+    setContact((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }))
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+
+    fetch("/api/contact", {
+      method: "post",
+      body: JSON.stringify({
+        name: contact.name,
+        email: contact.email,
+        message: contact.message,
+      }),
+    })
+      .then((res) => {
+        setContact({ name: "", email: "", message: "" })
+        toast.success("Successfully Sent!")
+      })
+      .catch((e) => {
+        toast.error("Something went wrong!")
+      })
+  }
 
   return (
     <form onSubmit={handleSubmit}>
@@ -14,15 +46,15 @@ const ContactForm = () => {
       </p>
 
       <div className="relative mb-4">
-        <Input label="Name" name="name" required />
+        <Input label="Name" name="name" required value={contact.name} onChange={handleChange} />
       </div>
 
       <div className="relative mb-4">
-        <Input label="Email" name="email" required type="email" />
+        <Input label="Email" name="email" required type="email" value={contact.email} onChange={handleChange} />
       </div>
 
       <div className="relative mb-4 space-y-4">
-        <Textarea label="Message" name="message" />
+        <Textarea label="Message" name="message" value={contact.message} onChange={handleChange} />
 
         <Button type="submit" className="bg-primary w-full">
           Submit

@@ -22,10 +22,10 @@ const EventCard = ({ data }: { data: EventProps }) => {
           </div>
         </div>
         <div className="flip-card-back p-5 grid place-items-center">
-          <p className="text-white">
+          <div className="text-white">
             <h2 className="font-bold mb-3 text-2xl">Description:</h2>
             <p className="text-sm">{description}</p>
-          </p>
+          </div>
         </div>
       </div>
     </div>

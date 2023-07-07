@@ -1,11 +1,9 @@
 import { sponsors } from "@/constants"
-import { Container } from "@/components"
-import Image from "next/image"
 
 const Sponsors = () => {
   return (
     <section className="bg-gray-900">
-      <div className="py-5 overflow-x-hidden">
+      <div className="py-8 overflow-x-hidden">
         <div
           className="
           relative 
@@ -16,8 +14,8 @@ const Sponsors = () => {
         "
         >
           {sponsors?.map((img, i) => (
-            <div key={i + img} className="relative w-36 aspect-video">
-              <Image src={img} alt={"image" + i} fill className="object-contain" />
+            <div key={i + img} className="h-5 aspect-video">
+              <img src={img} alt={"image" + i} className="w-full h-full object-contain" />
             </div>
           ))}
         </div>

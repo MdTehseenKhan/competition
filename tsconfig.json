@@ -27,6 +27,6 @@
       "@/actions": ["./app/actions"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/sections/about-section.tss"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/sections/about-section.tss", "app/models/Sponsor.js", "pages/api/become-sponsor.js"],
   "exclude": ["node_modules"]
 }
