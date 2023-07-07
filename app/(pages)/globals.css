@@ -8,7 +8,7 @@ html {
 
 /* Infinite Scroll */
 .animate-scroll {
-  width: 2500px;
+  width: 1500px;
   animation: animateScroll 35s linear infinite;
 }
 

@@ -67,6 +67,17 @@ export const sponsors = [
   "/images/sponsors/asset 10.svg",
 ]
 
+// export const sponsors = [
+//     "/images/sponsor/sponsor1.png",
+//     "/images/sponsor/sponsor2.png",
+//     "/images/sponsor/sponsor3.png",
+//     "/images/sponsor/sponsor4.png",
+//     "/images/sponsor/sponsor1.png",
+//     "/images/sponsor/sponsor2.png",
+//     "/images/sponsor/sponsor3.png",
+//     "/images/sponsor/sponsor4.png",
+// ]
+
 export const team = [
   {
     image: "/images/team/team1.jpg",
